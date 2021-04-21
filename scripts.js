@@ -40,7 +40,7 @@ function Recipe(recipeName, imageURL, contributorName, recipeIdentifier) {
   this.indentifier = ingredientFilename;
   this.dirFile = directionsFilename;
   this.equipFile = equipmentFilename;
-  
+ /* something does not work here.... fix both this one and TP7, and check PHP after this fix.. ended lecture at 1:07:46 for TP8 */  
   this.displayRecipe = function() {
     document.querySelector("h1").innerHTML = this.name;
     
