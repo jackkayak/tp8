@@ -48,4 +48,43 @@ $recipes["RaspberryStreuselTart"]["directions"][3] = "Combine preserves and wate
 $recipes["RaspberryStreuselTart"]["directions"][4] = "Gently brush top of custard with half of the hot preserves. Sprinkle berries generously over hot custard. Lightly brush tops of berries with remaining preserves. Sprinkle tart generously with streusel, pressing the crumbs gently into the berries
         so they will stick. Chill tart, uncovered, for about 2 hours. Just before serving, sift confectioners' sugar on top.";
 
+// recieve and process $_GET Data 
+
+
+// get the requested ID
+
+$requestedID = $_GET["id"];
+$requestedID = htmlspecialchars($requestedID);
+$requestedID = filter_var($requestedID, FILTER_SANITIZE_STRING);
+
+// get the requested list 
+
+$requestedList = $_GET["list"];
+$requestedList = htmlspecialchars($requestedList);
+$requestedList = filter_var($requestedList, FILTER_SANITIZE_STRING);
+
+// get the sub array of that ID and list
+
+$requestedArray = $recipes[$requestedID][$requestedList];
+
+
+// var dump didnt workn ask tor website not showing at all 
+
+var_dump($requestedList);
+
+// start converting requested data into JSON
+
+$requestedJSON = "0";
+
+if ($requestedArray != null) {
+  $requested JSON = json_encode($requestedArray);
+}
+
+// output the requested JSON
+
+echo $requestedJSON;
+
+
+
+
 
