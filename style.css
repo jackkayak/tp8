@@ -49,35 +49,35 @@ h3 {
 
 /* these are ingredients, directions, and equipment */
 
-#column1 {
+#ingredients {
   background-color: #DBD3D8;
-  height: 5vh;
+
   width: 25%;
   float: left;
   border-radius: 5px;
   display: inline-block;
-  overflow: hidden;
+
   
 }
 
-#column2 {
+#equipment {
   background-color: #976391;
-  height: 5vh;
+
   width: 25%;
   float: left;
   border-radius: 5px;
   display: inline-block;
-  overflow: hidden;
+
 }
 
-#column3 {
+#directions {
   background-color: #7D5C65;
-  height: 5vh;
+
   width: 33%;
   float: left;
   border-radius: 5px;
   display: inline-block;
-  overflow: hidden;
+
 }
 
 .img-fluid {

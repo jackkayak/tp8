@@ -72,7 +72,7 @@ $requestedArray = $recipes[$requestedID][$requestedList];
 
 // var dump didnt workn ask tor website not showing at all 
 
-var_dump($requestedList);
+// var_dump($requestedList);
 
 // start converting requested data into JSON
 
