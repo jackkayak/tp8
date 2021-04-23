@@ -91,6 +91,19 @@ function Recipe(recipeName, imageURL, contributorName, recipeIdentifier) {
                                     
                                    );
 
+chicken = new Recipe("Cheesy Buffalo Chicken Dip", 
+ 	"https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2143192.jpg&w=596&h=596&c=sc&poi=face&q=85",
+ 	"Edison Soliman",
+ 	"chicken"
+ );
+
+
+pasta = new Recipe("Spaghetti Aglio e Olio",
+  "https://media4.s-nbcnews.com/i/newscms/2017_41/1288319/20170828_20170822_11424_pastalikeapro_scottconant_styleddishes_0030_6aa19146b263f4803e6a06c1798de5a0.jpg",
+  "Bruno",
+"pasta"
+  );
+
 
 
  /* change font color using click function on h1 to green */
@@ -101,7 +114,22 @@ function Recipe(recipeName, imageURL, contributorName, recipeIdentifier) {
  }
 
 
+a = document.querySelector("div#column1");
+a.onclick = function () {
+  a.classList.toggle("iClicked");
+};
 
+/* this way works, overcomplexed it the first time */
+
+b = document.querySelector("div#column2");
+b.onclick = function () {
+  b.classList.toggle("eClicked");
+};
+
+c = document.querySelector("div#column3");
+c.onclick = function () {
+  c.classList.toggle("dClicked");
+};
 
 /* Last prompt then done */
 

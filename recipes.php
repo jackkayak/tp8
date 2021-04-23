@@ -49,6 +49,32 @@ $recipes["RaspberryStreuselTart"]["directions"][9] = "Gently brush top of custar
         so they will stick. Chill tart, uncovered, for about 2 hours. Just before serving, sift confectioners' sugar on top.";
 
 
+$recipes["SpaghettiAglioeOlio"] = array();
+$recipes["SpaghettiAglioeOlio"]["ingredients"] = array();
+$recipes["SpaghettiAglioeOlio"]["equipment"] = array();
+$recipes["SpaghettiAglioeOlio"]["directions"] = array();
+
+$recipes["SpaghettiAglioeOlio"]["ingredients"][0] = "1 pound uncooked spaghetti";
+$recipes["SpaghettiAglioeOlio"]["ingredients"][1] = "6 cloves garlic, thinly sliced";
+$recipes["SpaghettiAglioeOlio"]["ingredients"][2] = "½ cup olive oil";
+$recipes["SpaghettiAglioeOlio"]["ingredients"][3] = "¼ teaspoon red pepper flakes, or to taste";
+$recipes["SpaghettiAglioeOlio"]["ingredients"][4] = "salt and freshly ground black pepper to taste";
+$recipes["SpaghettiAglioeOlio"]["ingredients"][5] = "¼ cup chopped fresh Italian parsley";
+$recipes["SpaghettiAglioeOlio"]["ingredients"][6] = "1 cup finely grated Parmigiano-Reggiano cheese";
+
+$recipes["SpaghettiAglioeOlio"]["equipment"][0] = "Stove Top";
+$recipes["SpaghettiAglioeOlio"]["equipment"][1] = "Pot";
+$recipes["SpaghettiAglioeOlio"]["equipment"][2] = "Skillet";
+$recipes["SpaghettiAglioeOlio"]["equipment"][3] = "Knife";
+$recipes["SpaghettiAglioeOlio"]["equipment"][4] = "Measuring Cups";
+$recipes["SpaghettiAglioeOlio"]["equipment"][5] = "Colander";
+
+$recipes["SpaghettiAglioeOlio"]["directions"][0] = "Bring a large pot of lightly salted water to a boil. Cook spaghetti in the boiling water, stirring occasionally until cooked through but firm to the bite, about 12 minutes. Drain and transfer to a pasta bowl.";
+$recipes["SpaghettiAglioeOlio"]["directions"][1] = "Combine garlic and olive oil in a cold skillet. Cook over medium heat to slowly toast garlic, about 10 minutes. Reduce heat to medium-low when olive oil begins to bubble. Cook and stir until garlic is golden brown, about another 5 minutes. Remove from heat.";
+$recipes["SpaghettiAglioeOlio"]["directions"][2] = "Stir red pepper flakes, black pepper, and salt into the pasta. Pour in olive oil and garlic, and sprinkle on Italian parsley and half of the Parmigiano-Reggiano cheese; stir until combined.";
+$recipes["SpaghettiAglioeOlio"]["directions"][3] = "Serve pasta topped with the remaining Parmigiano-Reggiano cheese.";
+
+
 
 // recieve and process $_GET Data 
 

@@ -51,7 +51,7 @@ h3 {
 
 #ingredients {
   background-color: #DBD3D8;
-
+ height: 5vh;
   width: 25%;
   float: left;
   border-radius: 5px;
@@ -62,7 +62,7 @@ h3 {
 
 #equipment {
   background-color: #976391;
-
+ height: 5vh;
   width: 25%;
   float: left;
   border-radius: 5px;
@@ -72,7 +72,7 @@ h3 {
 
 #directions {
   background-color: #7D5C65;
-
+ height: 5vh;
   width: 33%;
   float: left;
   border-radius: 5px;
