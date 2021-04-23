@@ -91,15 +91,15 @@ h3 {
 /* js for list dropdown */
 
 
-div#column1.iClicked {
+div#ingredients.iClicked {
   height: auto;
 }
 
-div#column2.eClicked {
+div#equipment.eClicked {
   height: auto;
 }
 
-div#column3.dClicked {
+div#directions.dClicked {
   height: auto;
 }
 

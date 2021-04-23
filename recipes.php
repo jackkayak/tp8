@@ -74,6 +74,34 @@ $recipes["SpaghettiAglioeOlio"]["directions"][1] = "Combine garlic and olive oil
 $recipes["SpaghettiAglioeOlio"]["directions"][2] = "Stir red pepper flakes, black pepper, and salt into the pasta. Pour in olive oil and garlic, and sprinkle on Italian parsley and half of the Parmigiano-Reggiano cheese; stir until combined.";
 $recipes["SpaghettiAglioeOlio"]["directions"][3] = "Serve pasta topped with the remaining Parmigiano-Reggiano cheese.";
 
+$recipes["CheesyBuffaloChickenDip"] = array();
+$recipes["CheesyBuffaloChickenDip"]["ingredients"] = array();
+$recipes["CheesyBuffaloChickenDip"]["equipment"] = array();
+$recipes["CheesyBuffaloChickenDip"]["directions"] = array();
+
+$recipes["CheesyBuffaloChickenDip"]["ingredients"][0] = "2 bone-in chicken breast halves";
+$recipes["CheesyBuffaloChickenDip"]["ingredients"][1] = "1 teaspoon olive oil";
+$recipes["CheesyBuffaloChickenDip"]["ingredients"][2] = "1 stalk celery, finely diced";
+$recipes["CheesyBuffaloChickenDip"]["ingredients"][3] = "1 (8 ounce) package reduced-fat cream cheese";
+$recipes["CheesyBuffaloChickenDip"]["ingredients"][4] = "¾ cup blue cheese dressing";
+$recipes["CheesyBuffaloChickenDip"]["ingredients"][5] = "⅓ cup hot pepper sauce (such as Frank's RedHot®)";
+$recipes["CheesyBuffaloChickenDip"]["ingredients"][6] = "1 cup shredded Cheddar cheese";
+
+$recipes["CheesyBuffaloChickenDip"]["equipment"][0] = "Oven";
+$recipes["CheesyBuffaloChickenDip"]["equipment"][1] = "8\" x 8\" baking dish";
+$recipes["CheesyBuffaloChickenDip"]["equipment"][2] = "Forks";
+
+$recipes["CheesyBuffaloChickenDip"]["directions"][0] = "Place chicken breasts in a large saucepan; cover with water";
+$recipes["CheesyBuffaloChickenDip"]["directions"][1] = "Boil until cooked through, about 20 minutes.";
+$recipes["CheesyBuffaloChickenDip"]["directions"][2] = "Remove from water, and cool.";
+$recipes["CheesyBuffaloChickenDip"]["directions"][3] = "Pull meat from bones and skin. Shred meat and reserve.";
+$recipes["CheesyBuffaloChickenDip"]["directions"][4] = "Preheat oven to 350 degrees F.(175 degrees C)";
+$recipes["CheesyBuffaloChickenDip"]["directions"][5] = "Heat olive oil in large skillet. Stir in celery; cook until soft";
+$recipes["CheesyBuffaloChickenDip"]["directions"][6] = "Mix in the cream cheese, blue cheese dressing, and ranch dressing.Cook and stir until smooth and creamy";
+$recipes["CheesyBuffaloChickenDip"]["directions"][7] = "Stir in the shredded chicken and hot sauce";
+$recipes["CheesyBuffaloChickenDip"]["directions"][8] = "Spoon mixture into an 8x8 baking dish";
+$recipes["CheesyBuffaloChickenDip"]["directions"][9] = "Sprinkle with the shredded cheese";
+$recipes["CheesyBuffaloChickenDip"]["directions"][10] = "Bake in preheated oven until golden and bubbly, about 30 minutes";
 
 
 // recieve and process $_GET Data 
