@@ -114,19 +114,19 @@ function myFunction() {
 }
 
 
-a = document.querySelector("div#column1");
+a = document.querySelector("div#ingredients");
 a.onclick = function() {
   a.classList.toggle("iClicked");
 };
 
 /* this way works, overcomplexed it the first time */
 
-b = document.querySelector("div#column2");
+b = document.querySelector("div#equipment");
 b.onclick = function() {
   b.classList.toggle("eClicked");
 };
 
-c = document.querySelector("div#column3");
+c = document.querySelector("div#directions");
 c.onclick = function() {
   c.classList.toggle("dClicked");
 };
